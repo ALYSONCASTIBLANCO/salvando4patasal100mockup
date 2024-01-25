@@ -1,26 +1,45 @@
 body {
     background: #dde86d;
+    margin: 0;
     display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header, footer{
+    background: #e39e66;
+    
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+    color: #320d11;
+    font-size: 30px;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    color: #320d11;
+    font-weight: normal;
 }
 
 header h1 {
     color: #320d11;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
-    font-family: sans-serif;
     display: inline-block;
 }
 
 header h2 {
+    margin: 0;
     text-align: right;
     color: #320d11;
     font-size: 30px;
     font-weight: bold;
-    font-family: sans-serif;
-    margin: 0%;
 }
 
 header img {
+    margin: 0;
     width: 200px;
     height: 200px;
     display: inline-block;
@@ -49,7 +68,7 @@ header img {
     color: #320d11;
     font-size: 20px;
     font-weight: bold;
-    font-family: sans-serif;
+    font-style: italic;
     margin: 0;
 }
 
@@ -75,7 +94,6 @@ header img {
     height: 150px;
     border-radius: 200px;
 }
-
 .formulario {
     position: relative;
     top: -15vh;
@@ -91,7 +109,7 @@ header img {
 
 .donacion {
     position: relative;
-    top: -47vh;
+    top: -44vh;
     left: 60vw;
     clear: both;
 
@@ -102,8 +120,9 @@ footer {
     display: block
 }
 
-footer h3 {
-    font: bold 30px sans-serif;
+.siguenos {
+    font-weight: bold ;
+    font-size: 30px;
 }
 
 footer nav {
@@ -115,10 +134,59 @@ footer nav li {
     list-style: none;
     padding: 10px;
     display: inline-block;
-    font: bold 20px sans-serif;
+    font: bold 20px;
+}
+
+.icons{
+    width: 100px;
+    height: 100px;
+}
+.icons:hover{
+    transform: scale(1.5);
 }
 
 .copyright {
-    font: bold 22px sans-serif;
+    font: bold 22px;
     text-align: center;
+    margin: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+.contact{
+    list-style-type: none;
+    text-align: center;
+}
+
+.redes{
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+}
+.photos{
+    border: 1px solid brown;
+    list-style: none;
+    padding: 100px;
+    display: inline-block;
+    font-size: 30px;
+}
+.divbutton{
+    text-align: center;
+}
+button{
+    background: #cccd25;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+button:hover{
+    background: #b1a61d;
+}
+button:active{
+    background: #8d7a1b;
 }
