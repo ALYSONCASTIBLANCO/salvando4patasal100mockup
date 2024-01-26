@@ -1,10 +1,30 @@
+
 body {
     background: #dde86d;
     margin: 0;
     display: block;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 1;
 }
-
+.fondo{
+    position: relative;
+}
+.fondo::after{
+    content: "";
+    background: url("./public/background.jpeg");
+    opacity: 0.5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.bg-image{
+    width: 100%;
+    height: auto;
+    opacity: 0.75;
+}
 header, footer{
     background: #e39e66;
     
@@ -58,6 +78,7 @@ header img {
 .adop img {
     width: 200px;
     height: 200px;
+    border-radius: 100px;
 }
 
 .weare h3,
@@ -126,7 +147,7 @@ footer {
 }
 
 footer nav {
-    padding: 5px 15px;
+    padding: 5px 5px;
     text-align: left;
 }
 
@@ -189,4 +210,41 @@ button:hover{
 }
 button:active{
     background: #8d7a1b;
+}
+.adopciones{
+    display: block;
+    width: 100vw;
+    height: 40vh;
+    background: #cccd25;
+}
+.adopciones ul li{
+    border: 1px solid brown;
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    font-size: 30px;
+}
+.listado{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #8d7a1b;
+}
+
+.listado tbody tr:nth-child(odd){
+    background-color: #dde86d;
+}
+.listado tbody tr:nth-child(even){
+    background-color: #e39e66;
+}
+
+.listado thead th{
+    font-size: 30px;
+    background-color: #b1a61d;
+}
+.listado th, .listado td{
+    padding: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    border: 2px solid #8d7a1b;
 }
