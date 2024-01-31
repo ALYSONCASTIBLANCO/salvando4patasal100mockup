@@ -124,8 +124,10 @@ header img {
 }
 
 .formulario img {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
+    border-radius: 200px;
+
 }
 
 .donacion {
