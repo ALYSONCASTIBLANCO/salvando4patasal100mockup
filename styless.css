@@ -167,7 +167,16 @@ footer nav li {
 .icons:hover{
     transform: scale(1.5);
 }
-
+.icons2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+    
+}
+.icons2:hover{
+    transform: scale(2);
+}
 .copyright {
     font: bold 22px;
     text-align: center;
@@ -250,3 +259,13 @@ button:active{
     font-weight: lighter;
     border: 2px solid #8d7a1b;
 }
+.siguenosmenu{
+        display: inline-block;
+        
+    }
+
+.aliados{
+    display: inline-block;
+    padding-inline-start: 150px;
+}
+
